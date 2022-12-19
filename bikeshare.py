@@ -3,10 +3,10 @@ import time
 import pandas as pd
 import numpy as np
 
-CITY_DATA = { 'chicago': 'chicago.csv',
-              'new york city': 'new_york_city.csv',
-              'new york': 'new_york_city.csv',
-              'washington': 'washington.csv' }
+CITY_DATA = { 'chicago': 'chicago_2.csv',
+              'new york city': 'new_york_city_2.csv',
+              'new york': 'new_york_city_2.csv',
+              'washington': 'washington_2.csv' }
 #get_filters() method that filter according to city and/or month and/or day
 def get_filters():
     """
